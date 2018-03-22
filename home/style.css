@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|PT+Sans:400,700|Roboto+Slab:100,300,400,700');
 header{
-    padding: 4rem 15rem;
+    /*padding: 4rem 15rem;
+    border-bottom: 2px solid #DDD;*/
+    padding: 8rem 15rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/44/Tower_Bridge_London_Feb_2006.jpg');
+    background-color: #CCC;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
 }
 header h1{
     font-size:50px;
@@ -9,10 +20,13 @@ header h1{
 header p{
     font-size: 18px;
 }
+header ul{
+    font-size:14px;
+}
 
 @media (max-width: 768px) {    
     header{
-        padding: 2rem 0;
+        padding: 4rem 0;
     }
     header h1{
         font-size:30px;
@@ -25,6 +39,7 @@ header p{
     margin-bottom: 0px;
 }
 footer {
+    font-size:14px;
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: #EFEFEF;
@@ -52,7 +67,7 @@ footer {
   }
   section h3{
     font-size: 26px;
-    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'PT Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
     margin-bottom:2rem;
     text-align: center;
@@ -67,5 +82,5 @@ footer {
       margin-bottom: 1.5rem;
   }
   section .card-body{
-      padding:1.5rem;
+      padding:2rem 1.5rem;
   }
