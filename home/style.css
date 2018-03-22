@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|PT+Sans:400,700|Roboto+Slab:100,300,400,700');
+header{
+    padding: 4rem 15rem;
+}
+header h1{
+    font-size:50px;
+    font-weight: 600;
+}
+header p{
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {    
+    header{
+        padding: 2rem 0;
+    }
+    header h1{
+        font-size:30px;
+    }
+    header p{
+        font-size: 16px;
+    }
+}
+.list-inline{
+    margin-bottom: 0px;
+}
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #EFEFEF;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+  main{
+      background-color: #FFF;
+  }
+  section{
+      padding:5.5rem 0 4rem;
+  }
+  section h2{
+      font-size:26px;
+      color:#555;
+        font-family: 'Roboto Slab', serif;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display:-webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient: vertical;
+  }
+  section h3{
+    font-size: 26px;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Roboto Slab', serif;
+    margin-bottom:2rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  section p{
+      font-size: 18px;
+      font-family: 'Crimson Text', serif;
+      margin-bottom: 0;
+  }
+  section .card{
+      margin-bottom: 1.5rem;
+  }
+  section .card-body{
+      padding:1.5rem;
+  }
