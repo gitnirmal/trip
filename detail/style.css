@@ -1,0 +1,67 @@
+footer {
+    font-size:14px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #EFEFEF;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+  main{
+      background-color: #FFF;
+  }
+  section{
+      padding:5.5rem 0 4rem;
+  }
+  section h2{
+      font-size:26px;
+      color:#555;
+        font-family: 'Roboto Slab', serif;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display:-webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient: vertical;
+  }
+  section h3{
+    font-size: 26px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom:2rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  section p{
+      font-size: 18px;
+      font-family: 'Crimson Text', serif;
+      margin-bottom: 0;
+  }
+  section .card{
+      margin-bottom: 1.5rem;
+  }
+  section .card-body{
+      padding:2rem 1.5rem;
+  }
+
+  .gallery{
+    margin: 2rem 0;
+  }
+  .itinerary{
+      margin: 3rem 0 5rem;
+  }
+  .itinerary h2{
+    font-size:20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #EFEFEF;
+    padding-bottom: 0.5rem;
+}
+  .itinerary h4{
+    font-size:16px;
+    font-weight: 700;
+}
+.itinerary p{
+    margin-bottom: 1.5rem;
+}
